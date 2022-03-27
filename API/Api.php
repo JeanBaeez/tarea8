@@ -3,16 +3,26 @@ include './Modelos/Formulario.php';
 class Api
 {
     private $loaction = '/Applications/XAMPP/xamppfiles/htdocs/Itla/tarea8/resourses/tarea8.sqlite';
+  
+  
+   public $username = "u180490950_admin";
+   public  $password = "assessin23J";
     function __construct()
     {
-        $this->db = new SQLite3($this->loaction);
+        $conn = mysqli_connect("185.212.71.204:3306", "u180490950_admin", "assessin23J");
+
+        // Check connection
+        if (!$conn) {
+          die("Connection failed: " . mysqli_connect_error());
+        }
+        echo "Connected successfully";
     }
 
 
     function getCasosUcrania()
     {
         $sql = "SELECT * FROM CasosUcrania";
-        $result = $this->db->query($sql);
+        $result = $this->conn->query($sql);
         $casos = array();
         while ($row = $result->fetchArray()) {
             $casos[] = $row;

@@ -55,7 +55,7 @@
         $(document).ready(function() {
 
             $.ajax({
-                url: '/itla/tarea8/API/GetCasos.php',
+                url: '/ITLA/ProgramacionWeb/tarea8/API/GetCasos.php',
                 method: 'GET',
                 dataType: 'json',
                 success: function(data) {
