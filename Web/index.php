@@ -27,7 +27,7 @@
         <a href="https://github.com/JeanBaeez">GitHub <img src="./assets/GitHub-Mark-32px.png"></img></a>
         <br>
         <br>
-        <a class="btn btn-primary btn-sm" href="#" role="button">Pagina en servidor</a>
+        <a class="btn btn-primary btn-sm" href="http://jeanbaeez.online/" role="button">Pagina en servidor</a>
     </div>
 
 </body>

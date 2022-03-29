@@ -10,6 +10,7 @@
                 <a class="nav-link" href="./registro.php">Registrar Casos</a>
                 <a class="nav-link" href="./Casos.php">Listado de Casos</a>
                 <a class="nav-link" href="./eliminar.php">Eliminar Casos</a>
+                <a class="nav-link matricula">Jean baez 2016-3761</a>
             </div>
         </div>
     </div>

@@ -8,13 +8,13 @@ require './Api.php';
 
 if (isset($_POST)) {
 
-    $db = new Api();
+    $db = new Api();    
 
 
 
 
     $db->registrarCasos($_POST);
 
-    
-    header('Location: /ITLA/ProgramacionWeb/tarea8/Web/registro.php');
+
+    header('Location: ../Web/Thanks.php');
 }
