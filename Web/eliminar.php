@@ -47,7 +47,7 @@ if ($_GET) {
         <section class="container">
             <div>
 
-                <form method="get" action="/ITLA/ProgramacionWeb/tarea8/API/GetCasosById.php">
+                <form method="get" action="../API/GetCasosById.php">
                     <div>
 
                         <input type=" text" name="id" placeholder="ID de Caso">
