@@ -23,3 +23,18 @@ input:hover{
     cursor: pointer !important;
     color: #ccc;
 }
+
+.centerimg{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.matricula{
+    float: right !important;
+    font-style: bold !important;
+    font-style: underline !important;
+}
+
