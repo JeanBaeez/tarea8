@@ -30,7 +30,7 @@ define('ENVIRONMENT', 'development'); ?>
         <section class="container">
             <h2>Registro de casos </h2>
             <hr>
-            <form method="POST" action="/ITLA/ProgramacionWeb/tarea8/API/Registrar.php" class=" form">
+            <form method="POST" action="../API/Registrar.php" class=" form">
                 <div class="form-group">
                     <input type="date" name="fecha" placeholder="Fecha" class="form-control formImput">
                     <input type="time" name="hora" placeholder="Hora" class="form-control formImput">

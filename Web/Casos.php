@@ -55,7 +55,7 @@
         $(document).ready(function() {
 
             $.ajax({
-                url: '/API/GetCasos.php',
+                url: '../API/GetCasos.php',
                 method: 'GET',
                 dataType: 'json',
                 success: function(data) {
