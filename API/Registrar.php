@@ -16,5 +16,5 @@ if (isset($_POST)) {
     $db->registrarCasos($_POST);
 
     
-    header('Location: /Itla/tarea8/Web/registro.php');
+    header('Location: /ITLA/ProgramacionWeb/tarea8/Web/registro.php');
 }
