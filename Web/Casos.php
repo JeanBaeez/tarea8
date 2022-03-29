@@ -74,7 +74,7 @@
                             }, {
                                 data: 'TipoArma'
                             }, {
-                                data: 'Muertes'
+                                data: 'Muertos'
                             }, {
                                 data: 'Heridos'
                             },
@@ -82,7 +82,7 @@
                                 data: 'TotalDanos'
                             },
                             {
-                                data: 'AutorAtaque'
+                                data: 'Autor'
                             }
                         ],
                         header: true,

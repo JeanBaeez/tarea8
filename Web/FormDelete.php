@@ -8,7 +8,7 @@ error_reporting(E_ALL);
 session_start();
 
 $formulario = new Formulario();
-$formulario->Id = $_SESSION['casos']->Id;
+$formulario->Id = $_SESSION['casos']->id;
 $formulario->Fecha = $_SESSION['casos']->Fecha;
 $formulario->Hora = $_SESSION['casos']->Hora;
 $formulario->Ciudad = $_SESSION['casos']->Ciudad;
@@ -18,7 +18,8 @@ $formulario->TipoArma = $_SESSION['casos']->TipoArma;
 $formulario->Muertos = $_SESSION['casos']->Muertos;
 $formulario->Heridos = $_SESSION['casos']->Heridos;
 $formulario->TotalDanos = $_SESSION['casos']->TotalDanos;
-$formulario->Autor = $_SESSION['casos']->AutorAtaque;
+$formulario->Autor = $_SESSION['casos']->Autor;
+
 
 
 #$casos =  new Formulario(json_decode($_SESSION['casos']));
